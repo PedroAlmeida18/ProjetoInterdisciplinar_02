@@ -135,7 +135,7 @@
             android:src="@drawable/backspace"
             android:scaleType="center"/>
         <TextView
-            android:id="@+id/resultado2"
+            android:id="@+id/igual"
             style="@style/opertors_button"
             android:text="="/>
     </LinearLayout>
