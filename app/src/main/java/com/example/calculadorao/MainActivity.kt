@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         // Ação de Limpar
         findViewById<TextView>(R.id.limpar).setOnClickListener {
             expressao.text = ""
-            resultado.text = ""
+            resultado.text = "Limpei Tudo "
         }
         findViewById<ImageView>(R.id.back_space).setOnClickListener {
             val a  = expressao.text.toString()
