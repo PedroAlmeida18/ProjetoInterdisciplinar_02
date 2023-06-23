@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         // Ação de Limpar
         findViewById<TextView>(R.id.limpar).setOnClickListener {
             expressao.text = ""
-            resultado.text = "Limpei Tudo "
+            resultado.text = "LIMPEI TUDO VIU  "
         }
         findViewById<ImageView>(R.id.back_space).setOnClickListener {
             val a  = expressao.text.toString()
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             if (a.isNotBlank()) {
                 expressao.text = a.substring(0, a.length - 1)
             }
-            resultado.text = ""
+            resultado.text = "APAGUEI DE UM EM UM "
         }
 
 
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
                      resultado.text = result.toString()
                  }
              } catch (e: Exception) {
-                        resultado.text= "Aplica Limite Otário  "
+                        resultado.text= "Sou do tempo que dividir por zero era coisa de doido  "
              }
          }
 
